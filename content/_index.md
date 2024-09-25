@@ -29,7 +29,7 @@ sections:
             brightness: 1.0
           size: cover
           position: center
-          parallax: false
+          parallax: false 
   - block: collection
     id: publications
     content:
@@ -37,7 +37,7 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: false 
+        exclude_featured: false
     design:
       view: citation
       css_class: ''
