@@ -8,7 +8,7 @@ design:
   # Default section spacing
   spacing: "1rem"
 
-  sections:
+sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -30,7 +30,7 @@ design:
           size: cover
           position: center
           parallax: false 
-    - block: collection
+- block: collection
     id: publications
     content:
       title: Publications
