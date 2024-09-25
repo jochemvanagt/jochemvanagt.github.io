@@ -20,12 +20,14 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Doctoral Student
+role: Doctoral Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: UAntwerp
-    url: https://openai.com/
+    url: https://www.uantwerpen.be/en/
+  - name: KU Leuven
+    url: https://www.kuleuven.be/english/kuleuven/index.html
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -52,103 +54,34 @@ interests:
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  - area: PhD Political Science
+    institution: Ghent University
+    date_start: 2022-07-01
+    date_end: 2027-11-01
+    summary: 
+      Divided over democracy - The effects of affective polarization on citizens' democratic attitudes in Europe. Supervised by Prof. Anna Kern (Ghent University) & Prof. Hannah Werner (University of Zürich). 
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
-
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
-
+      text: 'Read Thesis Abstract'
+      url: 'https://lisajnssn.github.io/#dissertationphd'
+  - area: Research Master Social Sciences
+    institution: University of Amsterdam
+    date_start: 2020-09-01
+    date_end: 2022-07-01
+    summary: 
+      Cum Laude (GPA 89/100), top 3% of the 181 students who have obtained their degree between 2016 and 2022 (P97).
+  - area: BSc Political Science
+    institution: University of Amsterdam
+    date_start: 2017-09-01
+    date_end: 2020-08-01
+    summary:
+      Cum Laude (GPA 83/100) including Honours program (additional 30 ECTs at the Vrije Universiteit and University of Amsterdam) (GPA 87/100)
+  - area: BSc Communication Science
+    institution: University of Amsterdam
+    date_start: 2016-09-01
+    date_end: 2020-01-01
+    summary: 
+      Cum Laude (GPA 80/100).
+ 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
@@ -159,28 +92,9 @@ awards:
     date: '2023-11-25'
     awarder: Coursera
     icon: coursera
-    summary: |
+    summary:
       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
+I am a PhD candidate at [Ghent University](https://www.ugent.be/en), affiliated with the Department of Political Science and the [GASPAR research group](https://www.ugent.be/ps/politiekewetenschappen/gaspar/en). My primary research interests lie at the intersection of political psychology, political behaviour, and comparative politics, with a particular focus on understanding citizens’ commitments to democratic procedures and principles. In my [dissertation](https://lisajnssn.github.io/#dissertationphd), I examine how affective polarization influences citizens’ willingness to prioritize political gain over democratic values. Methodologically, I employ a range of quantitative techniques, including experiments, panel data analysis, and cross-national surveys. As a political scientist, I am committed to interdisciplinary research and open science principles.
 
-## About Me
-
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My work is supported by the [Research Foundation Flanders (FWO)](https://www.fwo.be/en/) under a four-year fundamental research fellowship, and has been published in leading international peer-reviewed journals, such as the _European Journal of Political Research_, _Acta Politica_, and _Acta Sociologica_. Thank you for visiting this website, and feel free to [contact me](https://lisajnssn.github.io/contact/) for any inquiries or collaborations.
